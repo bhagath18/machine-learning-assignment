@@ -3,23 +3,17 @@
 This repository contains the full implementation, analysis, and tutorial corresponding to the report titled “How Dropout Rate Influences Representation Learning in Deep Neural Networks.” The project investigates how different dropout rates affect optimisation behaviour, generalisation performance, and the internal representations learned by a multilayer perceptron trained on the MNIST dataset.
 
 ## Repository Structure
-24082046_ML_Project/
-├── README.md                         # Project overview, setup instructions, and usage guide
-│
-├── 24082046_ML_BD.ipynb              # Jupyter notebook with full code used for all experiments
-│
-├── 24082046_ML.pdf                   # Final tutorial/report submitted for assessment
-│
-├── figures/                          # Plots and visual outputs generated during experiments
-│   ├── loss_curves.png               # Training loss vs. epochs
-│   ├── accuracy_curves.png           # Validation accuracy vs. epochs
-│   ├── sparsity_plot.png             # Parameter sparsity across pruning levels
-│   ├── cm_p0.png                     # Confusion matrix – no pruning (p = 0)
-│   ├── cm_p03.png                    # Confusion matrix – moderate pruning (p = 0.3)
-│   ├── cm_p07.png                    # Confusion matrix – heavy pruning (p = 0.7)
-│
-├── license.txt                       # License and usage permissions
-
+README.md – Project overview and instructions
+24082046_ML_BD.ipynb – Jupyter notebook with full code
+24082046_ML – Final tutorial/report (PDF)
+figures/ – Folder containing plots generated during experiments
+• loss_curves.png
+• accuracy_curves.png
+• sparsity_plot.png
+• cm_p0.png
+• cm_p03.png
+• cm_p07.png
+license.txt – Usage license
 ## Project Overview
 
 Dropout is widely used to reduce overfitting in deep neural networks. This project evaluates its effect by testing five dropout rates: 0.0, 0.1, 0.3, 0.5, and 0.7.
